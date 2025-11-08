@@ -1,0 +1,67 @@
+\section{Appendix B: Study~B Protocol and Preregistration}
+
+\subsection{Administrative Details}
+\begin{description}[leftmargin=0pt]
+  \item[Title] Energetic Signatures of Emotional Resolution: Physiological Change at the Moment of Closure.
+  \item[Investigators] Clinical psychology PI, psychiatrist, neuroscientist, biostatistician, study coordinator.
+  \item[Setting] Psychology clinic paired with physiology monitoring suite.
+\end{description}
+
+\subsection{Summary}
+We test whether resolving a specific emotional issue produces measurable, immediate shifts in physiological signals and stress hormones.
+
+\subsection{Aims and Hypotheses}
+\begin{enumerate}[label=Aim~\arabic*., leftmargin=*]
+  \item Examine whether resolution moments coincide with HRV increases, skin conductance decreases, VO$_2$ normalization, and EEG entropy reductions.
+  \item Assess durable effects on 24--48~hour cortisol AUC and sleep relative to active control.
+\end{enumerate}
+
+\subsection{Design}
+Randomized controlled trial ($n=60$) comparing a targeted resolution protocol (brief exposure plus cognitive reappraisal or EMDR-inspired) with supportive counseling control. Distress screening ensures suitability; inclusion ages 21--60 with a circumscribed unresolved stressor; exclusions cover acute psychiatric risk, uncontrolled medical issues, and pregnancy.
+
+\subsection{Procedures}
+\begin{itemize}
+  \item \textbf{Intake}: consent, clinical interview, baseline questionnaires (GAD-7, PHQ-9, PSS, PCL-5 subset), continuous glucose monitor placement, actigraphy.
+  \item \textbf{Intervention session}: 90--120~minutes with ECG, electrodermal activity, respiration, indirect calorimetry, 64-channel EEG, micro-phenomenology prompts, salivary cortisol series, hs-CRP baseline.
+  \item \textbf{Follow-up}: 48-hour saliva collection, sleep summary, ecological momentary assessment of intrusions, device retrieval.
+\end{itemize}
+
+\subsection{Outcomes}
+Primary acute: change-point aligned HRV increases, electrodermal decreases, VO$_2$ normalization, EEG entropy decreases and coherence increases. Primary durable: reductions in cortisol AUC and improved sleep efficiency. Secondary: decreased intrusion frequency, increased self-reported relief.
+
+\subsection{Risks and Mitigation}
+Potential emotional distress handled by licensed clinicians with grounding techniques and referral pathways. Sensor discomfort minimized via hypoallergenic preparation. Biological sample collection limited to saliva (blood optional).
+
+\subsection{Compensation}
+\$100 upon completion plus \$25 travel stipend, pro-rated if partial.
+
+\subsection{Statistical Analysis}
+Bayesian change-point detection surrounding resolution timestamps, mixed-effects models with group-by-time interaction, mediation by confidence gain. Sample size powered for medium effect ($d \approx 0.6$). Data and code archived on OSF post-publication.
+
+\subsection{Consent Template}
+Participant-facing consent outlines purpose, procedures, risks, confidentiality, compensation, voluntary participation, and contact information, with signature blocks.
+
+\subsection{Preregistration Skeleton}
+\begin{itemize}
+  \item \textbf{Primary outcomes}: event-aligned physiological deltas; 24--48~hour cortisol AUC and sleep efficiency.
+  \item \textbf{Main analyses}: group-by-time mixed models; change-point detection anchored to resolution; mediation by confidence.
+  \item \textbf{Data handling}: preregistered inclusion/exclusion thresholds, missing-data rules, outlier management, intention-to-treat plus per-protocol reporting.
+  \item \textbf{Sample size}: $n=60$ detects effect sizes of $d \approx 0.6$ with power $0.8$.
+  \item \textbf{Open science}: tasks, code, and anonymized data shared upon acceptance.
+\end{itemize}
+
+\section{Appendix C: Shared Instruments and Pipelines}
+\subsection{Confidence and State Scales}
+Three-item state confidence slider (0--100) capturing understanding, predictability, and preparedness; relief/resolution visual analogue scale; expectancy and alliance short forms (CEQ-short, WAI-SR short).
+
+\subsection{EEG Entropy and Coherence}
+Processing pipeline: 64-channel montage, 1--45~Hz bandpass, independent component analysis for artifacts, 4~s epochs, Lempel--Ziv complexity, multiscale entropy (embedding dimension 2, tolerance $0.15$ SD), alpha (8--12~Hz) and theta (4--7~Hz) coherence across preregistered regions.
+
+\subsection{HRV and Physiological Signals}
+ECG sampling at $\geq$500~Hz, RMSSD as primary HRV metric, artifact correction via Kubios. Electrodermal activity decomposed into tonic and phasic elements. Indirect calorimetry captured breath-by-breath VO$_2$/VCO$_2$.
+
+\subsection{Data Security}
+Identifiers stored separately with encryption, access auditing, five-year retention, de-identification prior to sharing.
+
+\subsection{Adverse Event Script}
+Protocol for mild distress (pause, grounding), moderate/severe distress (terminate, clinician evaluation, safety planning), and IRB reporting timeline.

@@ -1,0 +1,66 @@
+\section{Experimental Design}
+
+We outline four complementary studies to operationalize the \MLP{} across sleep, emotion, cognition, and social coordination.
+
+\subsection{Study A: Sleep Deletion Study}
+\textbf{Aim.} Test whether REM energy expenditure scales with daytime informational entropy and predicts next-day metabolic relief.
+
+\textbf{Participants.} $n=48$ healthy adults (18--40).
+
+\textbf{Design.} Within-subject, three counterbalanced conditions across three lab nights: high-entropy day, low-entropy day, and control. Daytime protocols manipulate novelty using probabilistic learning, sequence prediction, and open problems.
+
+\textbf{Measures.} Real-time EEG for wake entropy ($\uncertainty_{\text{day}}$); confidence probes; polysomnography; whole-room calorimetry; optional FDG-PET subset; morning cortisol, HRV, and memory tests.
+
+\textbf{Analyses.} Linear mixed models: $E_{\text{REM}} \sim 1 + \uncertainty_{\text{day}} + (1\mid \text{subject})$; mediation by overnight entropy reduction; exploratory forgetting indices.
+
+\textbf{Falsification.} Null relationship between daytime entropy, REM energy, and next-day relief challenges the sleep-deletion coupling.
+
+\subsection{Study B: Emotional Resolution Metabolic Study}
+\textbf{Aim.} Determine whether emotional resolution produces acute energetic release and durable stress reduction.
+
+\textbf{Participants.} $n=60$ adults with a circumscribed unresolved stressor.
+
+\textbf{Design.} Randomized controlled trial comparing a targeted resolution protocol with an active control (supportive counseling).
+
+\textbf{Measures.} Continuous ECG, skin conductance, respiration, indirect calorimetry, dense EEG, micro-phenomenology time-stamps, salivary cortisol, hs-CRP, continuous glucose monitoring, and sleep actigraphy.
+
+\textbf{Outcomes.} Event-aligned HRV increases, skin conductance decreases, VO$_2$ normalization, EEG entropy decreases and coherence increases, followed by 24--48~h cortisol reduction and sleep improvement.
+
+\textbf{Falsification.} Absence of acute physiological inflection points or durable differences relative to control undermines the \MLP{} prediction.
+
+\subsection{Study C: Cognitive Compression and Glucose Efficiency}
+\textbf{Aim.} Quantify energy per unit of informational entropy reduced during learning.
+
+\textbf{Participants.} $n=40$ healthy adults.
+
+\textbf{Design.} Within-subject comparison of compressible regularities versus incompressible noise.
+
+\textbf{Measures.} EEG/MEG entropy reduction ($\Delta \uncertainty$), FDG-PET or calibrated fNIRS plus calorimetry, learning curves, confidence calibration.
+
+\textbf{Metric.} Energy-per-bit efficiency $\eta = E_{\text{block}} / \Delta \uncertainty$.
+
+\textbf{Prediction.} Lower $\eta$ for compressible structure and steeper $\eta$ decline as confidence rises.
+
+\textbf{Falsification.} Equivalent or worse efficiency for compressible conditions, or independence from confidence, contradicts the hypothesis.
+
+\subsection{Study D: Social Trust and Collective Energy}
+\textbf{Aim.} Test whether trust reduces redundant verification and energy expenditure in groups.
+
+\textbf{Participants.} Twenty-four teams of five.
+
+\textbf{Design.} Teams randomized to trust-priming versus neutral conditions before cooperative planning tasks with hidden information.
+
+\textbf{Measures.} Group calorimetry or wearable proxies, hyperscanning fNIRS, communication entropy, decision accuracy and latency.
+
+\textbf{Prediction.} Trust-primed groups display lower redundancy, reduced energy per decision, and higher inter-brain coherence.
+
+\textbf{Falsification.} No trust-related differences after controlling for skill implies social confidence may not map to energetic efficiency.
+
+\subsection{Shared Elements}
+\begin{itemize}
+  \item \textbf{Power and statistics}: Medium effects detectable with $n \approx 40$--60 per study arm; simulations for precision.
+  \item \textbf{Primary estimands}: Slopes of energy versus entropy reduction ($\partial E / \partial \Delta \uncertainty$) and confidence-mediated pathways.
+  \item \textbf{Preregistration}: Hypotheses, analyses, and exclusion criteria pre-specified; tasks and code shared openly.
+  \item \textbf{Ethics}: Minimal risk protocols with monitoring, PET limited to subsets under radiological oversight.
+  \item \textbf{Falsifiers}: Absence of monotonic relationships among uncertainty, confidence, and energy at any scale constrains the \MLP{} scope.
+\end{itemize}

@@ -1,0 +1,82 @@
+\contentsline {section}{\numberline {1}Background}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}The Thermodynamics of Information and the Landauer Limit}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Learning as Compression: The Information-Theoretic View}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Confidence and the Energetics of Deletion}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Biological Computation and the Energy--Information Nexus}{4}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Toward a Unified Thermodynamic Theory of Learning}{5}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Conceptual Framework: The Metabolic Landauer Principle}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Definition}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Cognitive--Thermodynamic Loop}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Energy Storage as Deferred Computation}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}The Confidence Threshold and Deletion Barrier}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Cognitive Homeostasis as Entropy--Energy Equilibrium}{6}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Systemic Integration}{6}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Implications}{6}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Conceptual Summary}{7}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Synthesis}{7}{subsection.2.9}%
+\contentsline {section}{\numberline {3}Biological Correlates}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Neurological Level: Energy, Memory, and Deletion}{7}{subsection.3.1}%
+\contentsline {paragraph}{Synaptic Plasticity as Physical Information Processing.}{7}{section*.4}%
+\contentsline {paragraph}{Sleep as a Global Compression--Deletion Cycle.}{7}{section*.5}%
+\contentsline {paragraph}{Neural Entropy and Predictive Efficiency.}{7}{section*.6}%
+\contentsline {subsection}{\numberline {3.2}Endocrine and Metabolic Level: Physiology of Unresolved Loops}{8}{subsection.3.2}%
+\contentsline {paragraph}{Cortisol as a Marker of Epistemic Stress.}{8}{section*.7}%
+\contentsline {paragraph}{Insulin and Fat Storage as Deferred Computation.}{8}{section*.8}%
+\contentsline {paragraph}{Inflammation as Thermodynamic Friction.}{8}{section*.9}%
+\contentsline {subsection}{\numberline {3.3}Psychological and Behavioral Level: Confidence, Resolution, and Flow}{8}{subsection.3.3}%
+\contentsline {paragraph}{Rumination and Cognitive Loops.}{8}{section*.10}%
+\contentsline {paragraph}{Emotional Resolution as Deletion.}{8}{section*.11}%
+\contentsline {paragraph}{Flow and Energetic Efficiency.}{8}{section*.12}%
+\contentsline {subsection}{\numberline {3.4}Cross-Scale Coupling}{8}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Integrative Summary}{8}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Predictions and Testable Hypotheses}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Prediction 1: Epistemic Confidence Reduces Metabolic Load}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Prediction 2: Cognitive Compression Correlates with Glucose Efficiency}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Prediction 3: Emotional Resolution Releases Measurable Energy}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Prediction 4: Sleep Energy Expenditure Tracks Informational Entropy}{9}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Prediction 5: Chronic Stress Represents a Stalled Deletion State}{9}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Prediction 6: Flow States Approach Landauer Efficiency}{10}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Prediction 7: Social Trust Lowers Collective Energy Expenditure}{10}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Summary Table}{10}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Experimental Paradigm Design}{10}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Overarching Prediction}{10}{subsection.4.10}%
+\contentsline {section}{\numberline {5}Experimental Design}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Study A: Sleep Deletion Study}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Study B: Emotional Resolution Metabolic Study}{11}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Study C: Cognitive Compression and Glucose Efficiency}{11}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Study D: Social Trust and Collective Energy}{12}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Shared Elements}{12}{subsection.5.5}%
+\contentsline {section}{\numberline {A}Appendix A: Study~A IRB Protocol}{12}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Administrative Details}{12}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Summary}{12}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Aims and Hypotheses}{12}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}Design}{13}{subsection.A.4}%
+\contentsline {subsection}{\numberline {A.5}Eligibility}{13}{subsection.A.5}%
+\contentsline {subsection}{\numberline {A.6}Procedures}{13}{subsection.A.6}%
+\contentsline {subsection}{\numberline {A.7}Measures and Outcomes}{13}{subsection.A.7}%
+\contentsline {subsection}{\numberline {A.8}Risks and Mitigation}{13}{subsection.A.8}%
+\contentsline {subsection}{\numberline {A.9}Benefits}{13}{subsection.A.9}%
+\contentsline {subsection}{\numberline {A.10}Confidentiality}{13}{subsection.A.10}%
+\contentsline {subsection}{\numberline {A.11}Compensation}{13}{subsection.A.11}%
+\contentsline {subsection}{\numberline {A.12}Statistics}{13}{subsection.A.12}%
+\contentsline {subsection}{\numberline {A.13}Withdrawal}{14}{subsection.A.13}%
+\contentsline {subsection}{\numberline {A.14}Adverse Event Reporting}{14}{subsection.A.14}%
+\contentsline {subsection}{\numberline {A.15}Consent Template}{14}{subsection.A.15}%
+\contentsline {section}{\numberline {B}Appendix B: Study~B Protocol and Preregistration}{14}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Administrative Details}{14}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.2}Summary}{14}{subsection.B.2}%
+\contentsline {subsection}{\numberline {B.3}Aims and Hypotheses}{14}{subsection.B.3}%
+\contentsline {subsection}{\numberline {B.4}Design}{14}{subsection.B.4}%
+\contentsline {subsection}{\numberline {B.5}Procedures}{14}{subsection.B.5}%
+\contentsline {subsection}{\numberline {B.6}Outcomes}{15}{subsection.B.6}%
+\contentsline {subsection}{\numberline {B.7}Risks and Mitigation}{15}{subsection.B.7}%
+\contentsline {subsection}{\numberline {B.8}Compensation}{15}{subsection.B.8}%
+\contentsline {subsection}{\numberline {B.9}Statistical Analysis}{15}{subsection.B.9}%
+\contentsline {subsection}{\numberline {B.10}Consent Template}{15}{subsection.B.10}%
+\contentsline {subsection}{\numberline {B.11}Preregistration Skeleton}{15}{subsection.B.11}%
+\contentsline {section}{\numberline {C}Appendix C: Shared Instruments and Pipelines}{15}{appendix.C}%
+\contentsline {subsection}{\numberline {C.1}Confidence and State Scales}{15}{subsection.C.1}%
+\contentsline {subsection}{\numberline {C.2}EEG Entropy and Coherence}{16}{subsection.C.2}%
+\contentsline {subsection}{\numberline {C.3}HRV and Physiological Signals}{16}{subsection.C.3}%
+\contentsline {subsection}{\numberline {C.4}Data Security}{16}{subsection.C.4}%
+\contentsline {subsection}{\numberline {C.5}Adverse Event Script}{16}{subsection.C.5}%

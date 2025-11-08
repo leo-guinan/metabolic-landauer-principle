@@ -1,0 +1,100 @@
+\section{Conceptual Framework: The \MLP}
+
+\subsection{Definition}
+We define the \MLP{} via the energetic cost of deleting uncertainty in biological systems:
+\begin{equation}
+  \energydelete = k_B T \ln 2 \cdot f(\uncertainty, \confidence, \metabolic),
+\end{equation}
+where $\uncertainty$ denotes residual informational entropy, $\confidence$ is epistemic trust in the fidelity of an updated predictive model, and $\metabolic$ captures available free energy. We specify
+\begin{equation}
+  f(\uncertainty, \confidence, \metabolic) = \frac{\uncertainty}{\confidence} \cdot g(\metabolic),
+\end{equation}
+so confident systems ($\confidence \gg \uncertainty$) delete obsolete information at lower energetic cost, while uncertain systems incur higher barriers to letting go.
+
+\subsection{Cognitive--Thermodynamic Loop}
+The brain--body system operates as a closed-loop thermodynamic information engine:
+\begin{enumerate}[label=(\roman*)]
+  \item \textbf{Perception}: Novel data increase $\uncertainty$.
+  \item \textbf{Learning}: Compression decreases $\uncertainty$ and increases $\confidence$.
+  \item \textbf{Deletion}: When $\confidence$ exceeds a threshold $\confidence_c$, energy $\energydelete$ is expended to erase obsolete representations.
+  \item \textbf{Metabolic Update}: Dissipated energy frees neural and metabolic capacity for new learning.
+\end{enumerate}
+Stalled loops---due to chronic stress or ambiguity---prevent confident deletion, yielding persistent activation, elevated cortisol, and stored energy.
+
+\subsection{Energy Storage as Deferred Computation}
+Energy reserves function as deferred computation under high uncertainty. When deletion is unsafe, biological systems hoard energy analogously to redundant data storage. Table~\ref{tab:states} summarizes the mapping.
+\begin{table}[h]
+  \centering
+  \caption{Informational states and physiological correlates.}
+  \label{tab:states}
+  \begin{tabular}{lll}
+    \toprule
+    Informational State & Physiological Correlate & Description \\
+    \midrule
+    Unresolved loop & Chronic stress & Recurrent prediction errors; sustained cortisol \\
+    Redundant memory & Energy storage & Fat accumulation as ``uncertainty buffer'' \\
+    Confident compression & Homeostasis & Balanced energy allocation and predictive trust \\
+    Excessive deletion & Burnout & Overconfidence with underpreparedness \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{The Confidence Threshold and Deletion Barrier}
+We frame the deletion barrier as
+\begin{equation}
+  \entropydelete = k_B T \ln 2 \cdot \frac{\uncertainty}{\confidence}.
+\end{equation}
+Deletion proceeds when available metabolic energy $\metabolic_{\text{free}}$ exceeds this barrier:
+\begin{equation}
+  \metabolic_{\text{free}} \geq \entropydelete.
+\end{equation}
+Confidence acts analogously to a catalyst: increasing $\confidence$ lowers the barrier, enabling irreversible transformation.
+
+\subsection{Cognitive Homeostasis as Entropy--Energy Equilibrium}
+The organism seeks dynamic equilibrium
+\begin{equation}
+  \frac{\mathrm{d}\uncertainty}{\mathrm{d}t} + \frac{\mathrm{d}\metabolic}{\mathrm{d}t} \approx 0.
+\end{equation}
+Increases in uncertainty demand metabolic expenditure; decreasing uncertainty via learning and deletion releases energy.
+
+\subsection{Systemic Integration}
+Across scales, the \MLP{} binds processes:
+\begin{itemize}
+  \item \textbf{Cellular}: Autophagy and apoptosis as data deletion with heat dissipation.
+  \item \textbf{Neural}: Synaptic pruning and memory consolidation consuming glucose.
+  \item \textbf{Emotional}: Resolution and forgiveness modulating cortisol and energetic release.
+  \item \textbf{Systemic}: Metabolism and immune response buffering against uncertainty.
+  \item \textbf{Social}: Trust loops enabling distributed compression and energetic efficiency.
+\end{itemize}
+
+\subsection{Implications}
+Key implications include:
+\begin{itemize}
+  \item Emotions regulate deletion thresholds by signaling when erasure is safe.
+  \item Learning fatigue reflects accumulated deletion costs near the \landauer{} bound.
+  \item Trauma and chronic stress manifest as high-entropy attractors with blocked deletion.
+  \item Therapeutic resolution restores epistemic trust, lowering deletion barriers.
+  \item Synthetic cognition could leverage confidence-based deletion for energetic regulation.
+\end{itemize}
+
+\subsection{Conceptual Summary}
+Table~\ref{tab:concept_summary} summarizes the mapping between information-theoretic expressions and biological manifestations.
+\begin{table}[h]
+  \centering
+  \caption{Conceptual summary of the \MLP{}.}
+  \label{tab:concept_summary}
+  \begin{tabular}{lll}
+    \toprule
+    Concept & Information-Theoretic Expression & Biological Expression \\
+    \midrule
+    Learning & Compression of data & Neural encoding \\
+    Deletion & Irreversible erasure & Synaptic pruning, emotional release \\
+    Confidence & Predictive fidelity & Trust, coherence, faith \\
+    Energy & Substrate of computation & Metabolic ATP flow \\
+    Disease & Failure of safe deletion & Chronic uncertainty, energy storage \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Synthesis}
+The \MLP{} unites cognitive, emotional, and metabolic processes under a single physical law: the cost of learning and the discomfort of letting go are expressions of the same thermodynamic constraint. Learning consumes energy to compress uncertainty; confident deletion dissipates energy to achieve clarity. Adaptation emerges from the oscillation between these poles.
