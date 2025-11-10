@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://metaspn.org/schemas/academic_prereg.schema.json",
+  "title": "Academic Prereg",
+  "type": "object",
+  "required": ["venue", "primary_outcomes", "analysis_plan", "bf_threshold", "p_threshold"],
+  "properties": {
+    "venue": {
+      "type": "string",
+      "description": "OSF/Registered Report venue"
+    },
+    "primary_outcomes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "analysis_plan": {
+      "type": "string"
+    },
+    "bf_threshold": {
+      "type": "number",
+      "const": 10
+    },
+    "p_threshold": {
+      "type": "number",
+      "const": 0.005
+    },
+    "n_target": {
+      "type": "integer"
+    },
+    "irb_required": {
+      "type": "boolean"
+    },
+    "data_blinding": {
+      "type": "string",
+      "enum": ["none", "single", "double"]
+    }
+  }
+}
+

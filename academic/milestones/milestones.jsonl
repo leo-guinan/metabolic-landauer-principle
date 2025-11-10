@@ -1,0 +1,9 @@
+{"arm":"academic","code":"A0","label":"Hypothesis Lock (v1.0-lock)","ts":"2025-11-10T14:00:00Z","actor":"Leo Guinan","evidence_url":"https://repo/releases/tag/v1.0-lock","hash":"<sha256>", "meta":{"pdf":"main_academic.pdf"}}
+{"arm":"academic","code":"A1","label":"Preregistration posted","ts":"2025-11-12T16:27:09Z","actor":"Leo","evidence_url":"https://osf.io/<id>","hash":"<sha256>","meta":{"venue":"OSF RR","n_target":200}}
+{"arm":"academic","code":"A2","label":"IRB determination","ts":"2025-11-18T13:05:00Z","actor":"IRB Office","evidence_url":"https://irb/<doc>","hash":"<sha256>","meta":{"status":"exempt"}}
+{"arm":"academic","code":"A3","label":"Recruitment start","ts":"2025-12-01T00:00:00Z","actor":"Study Coord","evidence_url":"https://repo/issues/23","hash":"<sha256>"}
+{"arm":"academic","code":"A4","label":"Data collection complete","ts":"2026-02-15T23:59:00Z","actor":"Study Coord","evidence_url":"https://repo/releases/data-v1","hash":"<sha256>"}
+{"arm":"academic","code":"A5","label":"Manuscript submitted","ts":"2026-03-01T12:30:00Z","actor":"Leo","evidence_url":"https://journal/submissions/<id>","hash":"<sha256>"}
+{"arm":"academic","code":"A6","label":"External acceptance","ts":"2026-06-07T15:42:12Z","actor":"Journal Editor","evidence_url":"https://journal/accept/<id>","hash":"<sha256>","meta":{"decision":"accept"}}
+{"arm":"academic","code":"A7","label":"Public dataset + code","ts":"2026-06-07T16:00:00Z","actor":"Leo","evidence_url":"https://repo/releases/data-v2","hash":"<sha256>"}
+

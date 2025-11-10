@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://metaspn.org/schemas/memetic_log.schema.json",
+  "title": "Memetic Log",
+  "type": "object",
+  "required": ["pid", "city", "deletion_ts", "energy_pre", "energy_post", "consent_ts"],
+  "properties": {
+    "pid": {
+      "type": "string",
+      "description": "Pseudonymous participant ID"
+    },
+    "city": {
+      "type": "string"
+    },
+    "age_band": {
+      "type": "string",
+      "enum": ["18-24", "25-34", "35-44", "45-54", "55-64", "65+"]
+    },
+    "deletion_ts": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "energy_pre": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "energy_post": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "hrv_rmssd_pre_24h": {
+      "type": "number",
+      "description": "Optional wearable metric"
+    },
+    "hrv_rmssd_post_24h": {
+      "type": "number"
+    },
+    "sleep_eff_pre": {
+      "type": "number",
+      "description": "0–100 (%)"
+    },
+    "sleep_eff_post": {
+      "type": "number"
+    },
+    "consent_ts": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "device_type": {
+      "type": "string",
+      "description": "e.g., Oura, Apple Watch, WHOOP"
+    },
+    "exclusions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}
+

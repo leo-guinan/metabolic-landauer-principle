@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://metaspn.org/schemas/curator_audit.schema.json",
+  "title": "Curator Audit",
+  "type": "object",
+  "required": ["dataset_hash", "script_hash", "curator", "ts", "checks"],
+  "properties": {
+    "dataset_hash": {
+      "type": "string"
+    },
+    "script_hash": {
+      "type": "string"
+    },
+    "curator": {
+      "type": "string"
+    },
+    "ts": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "checks": {
+      "type": "object",
+      "properties": {
+        "inclusion_exclusion_applied": {
+          "type": "boolean"
+        },
+        "outlier_rules_applied": {
+          "type": "boolean"
+        },
+        "reproducible_numbers": {
+          "type": "boolean"
+        },
+        "n_participants": {
+          "type": "integer"
+        },
+        "n_cities": {
+          "type": "integer"
+        },
+        "n_quantified": {
+          "type": "integer"
+        },
+        "effect_direction_pct": {
+          "type": "number"
+        },
+        "sensor_corrob_pct": {
+          "type": "number"
+        }
+      }
+    },
+    "notes": {
+      "type": "string"
+    },
+    "signature": {
+      "type": "string",
+      "description": "PGP or typed attest + key id"
+    }
+  }
+}
+

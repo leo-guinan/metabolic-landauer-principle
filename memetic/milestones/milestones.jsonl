@@ -1,0 +1,8 @@
+{"arm":"memetic","code":"M0","label":"Hypothesis Lock (v1.0-lock)","ts":"2025-11-10T14:00:00Z","actor":"Leo Guinan","evidence_url":"https://repo/releases/tag/v1.0-lock","hash":"<sha256>", "meta":{"pdf":"main_memetic.pdf"}}
+{"arm":"memetic","code":"M1","label":"Public call + protocol drop","ts":"2025-11-12T16:30:00Z","actor":"Leo","evidence_url":"https://repo/memetic/protocol","hash":"<sha256>"}
+{"arm":"memetic","code":"M2","label":"First 100 logs","ts":"2025-11-25T21:10:00Z","actor":"Curator-1","evidence_url":"https://repo/memetic/data/logs-100.csv","hash":"<sha256>","meta":{"n":100,"cities":3}}
+{"arm":"memetic","code":"M3","label":"Quantified nodes cohort live","ts":"2025-11-28T12:00:00Z","actor":"Curator-2","evidence_url":"https://repo/memetic/data/quantified.json","hash":"<sha256>","meta":{"n_quantified":52}}
+{"arm":"memetic","code":"M4","label":"Replication threshold reached","ts":"2025-12-05T18:04:32Z","actor":"Curator-1","evidence_url":"https://repo/memetic/analysis/threshold-check.ipynb","hash":"<sha256>","meta":{"n":150,"effect_direction_pct":72}}
+{"arm":"memetic","code":"M5","label":"Curator audit + freeze","ts":"2025-12-05T19:30:00Z","actor":"Curator-2","evidence_url":"https://repo/memetic/verification/audit-1.json","hash":"<sha256>"}
+{"arm":"memetic","code":"M6","label":"Memetic paper published","ts":"2025-12-06T09:00:00Z","actor":"Leo","evidence_url":"https://repo/memetic/paper.pdf","hash":"<sha256>"}
+
